@@ -1,0 +1,9 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Autofac\Autofac-develop\Autofac-develop\src\Autofac\Autofac.csproj" />
+    <ProjectReference Include="..\Autofac\DependencyInjection\DependencyInjection\src\Autofac.Extensions.DependencyInjection\Autofac.Extensions.DependencyInjection.csproj" />
+  </ItemGroup>
+</Project>
